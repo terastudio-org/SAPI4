@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <data-extraction-rules>
+        <cloud-backup>
+            <!-- TODO: Use <include> and <exclude> to control what is backed up.
+            <include .../>
+            <exclude .../>
+            -->
+        </cloud-backup>
+        <!--
+        The contents of this file are available for application to opt-out of device
+        transfer during backup. That is, when a restore happens, the default behavior
+        is to restore all backed-up files. If you wish to prevent some of the files
+        from being restored, add them to the <device-transfer> section below.
+        -->
+        <device-transfer>
+            <!--
+            <include .../>
+            <exclude .../>
+            -->
+        </device-transfer>
+    </data-extraction-rules>
+</resources>

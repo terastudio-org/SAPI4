@@ -1,0 +1,74 @@
+body {
+    font-family: Open Sans,Arial;
+}
+
+.content {
+    display: flex;
+}
+
+.generator {
+    text-align: center;
+	flex: 0 0 70%;
+    max-width: 70%;
+}
+
+.description {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 5px;
+	flex: 0 0 30%;
+    max-width: 30%;
+}
+
+audio {
+    border-radius:2px;
+    padding:6px;
+    margin:16px auto;
+    box-shadow:0 2px 5px rgba(0,0,0,0.3);
+    background-color: #fafafa;
+    width: 300px;
+}
+
+label {
+    display: inline-block;
+    width: 91px;
+    text-align: right;
+}
+
+.options {
+    margin-bottom: 20px;
+}
+
+select {
+    width: 300px;
+}
+
+input {
+    width: 296px;
+}
+
+button.disabled {
+    cursor: not-allowed;
+    filter: alpha(opacity=65);
+    box-shadow: none;
+    opacity: .65;
+}
+
+button {
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.5;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+    
+button:hover {
+    background: linear-gradient(#e4e4e4, #ededed);
+    cursor: pointer;
+}
+
+button:active {
+    background: linear-gradient(#dfdfdf, #e3e3e3);
+    border: solid 1px #959595;
+    box-shadow: inset 0 10px 15px 0 #c4c4c4;
+}
